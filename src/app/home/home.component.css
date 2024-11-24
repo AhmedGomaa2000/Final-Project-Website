@@ -1,0 +1,257 @@
+/* ################################### */
+/* Section 1: Intro */
+/* Whole Section */
+.personal-intro-section {
+    text-align: center;
+}
+.personal-intro-section .personal-intro-header {
+    font-size:  30px; /* vh to adjust on small screen */
+    color: var(--FooterHeaders);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.personal-intro-section .personal-intro-body{
+    color: #333;
+    font-size: 1.1rem;
+}
+.personal-intro-section .personal-intro-button {
+    margin: 0.5rem auto;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: var(--FooterHeaders);
+    color: white;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+.personal-intro-section .personal-intro-button:hover { 
+    background-color: var(--NavyBlueHover);
+}
+/* ################################### */
+/* Section 2: Booking Area */
+.personal-section2-booking {
+    background-image: url('/assets/images/hero-1-img.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 70vh;
+    background-repeat: no-repeat;
+}
+.personal-section2-booking .personal-form-conatiner {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: antiquewhite;
+    max-width: 90%; /* Ensure it spans the full width of the form */
+    padding: 0.75rem 1.2rem;
+    margin: auto;
+    border-radius: 0.5rem; /* Rounded corners for the form container */
+}
+#country, 
+#travellers, 
+#duration {
+    max-width: 100%; /* Ensures select and input fields are fully responsive */
+}
+.personal-booking-button {
+    border: none;
+    border-radius: 0.5rem;
+    white-space: nowrap;
+    background-color: var(--TextOrange); /* Apply your custom color */
+    color: antiquewhite; /* Make sure text contrasts well with the background */
+}
+/* ################################### */
+/* Section 3: Get To Know Us */
+.personal-sec3-textbody {
+    background-color: #b5d6ec;
+    padding: 1.7rem;
+    margin-left: 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: italic;
+}
+.personal-sec3-list {
+    font-size: 1.2rem;
+    list-style: none;
+}
+.personal-sec3-list li {
+    position: relative; 
+    padding-left: 30px; 
+    padding-bottom: 5px;
+}
+.personal-sec3-list li::before {
+    content: '';
+    background-image: url('/assets/images/icon-plane.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0; 
+    top: 50%; 
+    transform: translateY(-50%); 
+}
+.personal-sec3-button {
+    background-color: var(--TextOrange);
+    white-space: nowrap;
+    color: antiquewhite;
+    font-weight: 500;
+}
+.personal-sec3-button:hover {
+    background-color: rgba(250,113,53,0.9);
+    color: antiquewhite;
+}
+/* ################################### */
+/* Section 4 & Section: 9 */
+/* Whole Section */
+.personal-sec-4,
+.personal-sec-9 {
+    background-color: #f6f6f6;
+}
+/* ################################### */
+/* Scetion 7 */
+/* ################################### */
+/* Section 8: Top Destination Pt2  */
+.personal-sec8-card {
+    position: relative;
+}
+.personal-sec8-card:hover {
+    scale: 1.02;
+}
+.personal-sec8-card .personal-sec8-text-container {
+    position: absolute;
+    bottom: 10px;
+    left: 40px;
+    color: antiquewhite;
+}
+.personal-sec8-card img {
+    width: 100%;
+    height: auto;
+}
+/* ################################### */
+/* Section 9: Trending Destinations */
+/* ################################### */
+/* Section 12: Blog */
+.personal-sec12-card-image {
+    width: 40px;
+}
+.personal-sec12-card-header {
+    color: var(--TextOrange);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.personal-sec12-card-body {
+    color: var(--FooterHeaders);
+    font-size: 1.5rem;
+}
+/* ################################### */
+/* Footer */
+/* Footer: Pro Offers */
+.parent-div {
+    position: relative;
+    background-color: var(--NavBarButton); 
+    padding: 40px;
+    text-align: center;
+    overflow: hidden; 
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+.input-container input {
+    max-width: 300px;
+    margin-right: 10px;
+}
+.personal-footer-button {
+    background-color: var(--FooterHeaders);
+    color: white;
+    font-weight: bold;
+    z-index: 10;
+}
+/* Pro Offers Shape */
+.shape {
+    position: absolute;
+    background-color: lightblue;
+    border-radius: 50%; 
+    opacity: 0.5;
+}
+.shape-1 {
+    width: 100px;
+    height: 100px;
+    top: 30px;
+    left: 50px;
+}
+.shape-2 {
+    width: 150px;
+    height: 150px;
+    bottom: 20px;
+    right: 90px;
+}
+.shape-3 {
+    width: 120px;
+    height: 120px;
+    top: 10px;
+    right: 50px;
+}
+
+/* Column Headers */
+.perosnal-footer-header {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: var(--FooterHeaders);
+}
+/* ################################### */
+/* Responsive adjustments */
+@media (min-width: 576px) { /* small screens */
+    .personal-form-conatiner {
+        padding: 1rem;
+    }
+    .personal-intro-section .personal-intro-header {
+        font-size: 2rem;
+    }
+    .personal-intro-section .personal-intro-body {
+        font-size: 0.75rem;
+    }
+    .personal-section2-booking {
+        padding: 2.5rem; 
+    }
+
+}
+@media (min-width: 768px) { /* medium screens */
+    .parent-div {
+        width: 100%;
+        padding: 20px; 
+    }
+
+    .personal-intro-section .personal-intro-header {
+        font-size: 2.2rem;
+    }
+    .personal-intro-section .personal-intro-body {
+        font-size: 0.9rem;
+    }
+
+    .personal-section2-booking {
+        padding: 2.5rem; 
+    }
+    .personal-form-conatiner {
+        padding: 1rem;
+        margin-top: 60px;
+    }
+
+    .shape-1, .shape-2, .shape-3 {
+        width: 80px;
+        height: 80px;
+    }
+}
+@media (min-width: 992px) { /* large screens */
+    .personal-section2-booking {
+        position: relative;
+    }
+    .personal-form-conatiner {
+        position: absolute;
+        bottom: 30px;
+        margin: 0 auto;
+    }
+    .personal-intro-section .personal-intro-header {
+        font-size: 4.5rem;
+    }
+    .personal-intro-section .personal-intro-body{
+        font-size: 1.1rem;
+    }
+}

@@ -1,0 +1,40 @@
+<nav id="personal-navigation-bar" class="personal-px-5rem navbar navbar-expand-lg navbar-light bg-light py-4">
+    <div class="container-fluid">
+        <a class="personal-ms-5rem navbar-brand" href="#"> <!-- Logo -->
+            <img class="personal-website-logo" src="assets/images/website-logo.png" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['']">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['blogs']">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['destination']">Destination</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['about-us']">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                        Pages
+                    </a>
+                    <ul class="dropdown-menu" >
+                        <li><a class="dropdown-item" [routerLink]="['FAQ']">FAQ</a></li>
+                        <li><a class="dropdown-item" href="../../assets/sign-up.html">Sign Up</a></li>
+                        <li><a class="dropdown-item" href="../../assets/login.html">Log In</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['contact']">Contact</a>
+                </li>
+            </ul>
+            <button class="btn personal-homepage-nav-button p-2 px-3 personal-me-5rem" type="submit">Book Trip</button>
+        </div>
+    </div>
+</nav>

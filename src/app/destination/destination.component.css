@@ -1,0 +1,102 @@
+/* Banner */
+.personal-banner {
+    background-image: url('/assets/images/banner-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 130px 0;
+}
+.personal-banner h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+}
+.personal-banner-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.personal-banner-links ul li a:hover {
+    color: var(--TextOrange);
+}
+/* ###################################### */
+.personal-destenation-card-custom {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+.personal-destenation-card-custom:hover {
+    transform: scale(1.05);
+}
+.card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.rating {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+}
+.promo-card {
+    background-color: #0d3c55;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.promo-card h5 {
+    font-size: 1.5rem;
+}
+.promo-card p {
+    font-size: 1.2rem;
+}
+.personal-offer-card-button {
+    background-color: var(--TextOrange);
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.personal-offer-card-button:hover {
+    background-color: rgba(250,113,53, 0.8);
+}
+/* .... */
+.section-heading {
+    color: #f44336;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.main-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.feature-box {
+    text-align: left;
+    margin-bottom: 30px;
+}
+.feature-box h4 {
+    font-weight: bold;
+    margin-top: 15px;
+}
+.feature-box p {
+    color: #6c757d;
+}
+.feature-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.image-section {
+    text-align: center;
+}
+.image-section img {
+    max-width: 100%;
+    height: auto;
+}

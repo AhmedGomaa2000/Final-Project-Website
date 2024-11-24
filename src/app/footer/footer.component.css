@@ -1,0 +1,64 @@
+/* Footer: Pro Offers */
+.parent-div {
+    position: relative;
+    background-color: var(--NavBarButton); 
+    padding: 40px;
+    text-align: center;
+    overflow: hidden; 
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+.input-container input {
+    max-width: 300px;
+    margin-right: 10px;
+}
+.personal-footer-button {
+    background-color: var(--FooterHeaders);
+    color: white;
+    font-weight: bold;
+    z-index: 10;
+}
+/* Pro Offers Shape */
+.shape {
+    position: absolute;
+    background-color: lightblue;
+    border-radius: 50%; 
+    opacity: 0.5;
+}
+.shape-1 {
+    width: 100px;
+    height: 100px;
+    top: 30px;
+    left: 50px;
+}
+.shape-2 {
+    width: 150px;
+    height: 150px;
+    bottom: 20px;
+    right: 90px;
+}
+.shape-3 {
+    width: 120px;
+    height: 120px;
+    top: 10px;
+    right: 50px;
+}
+/* Column Headers */
+.perosnal-footer-header {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: var(--FooterHeaders);
+}
+/* Responsive adjustments */
+@media (min-width: 768px) { /* medium screens */
+    .parent-div {
+        width: 100%;
+        padding: 20px; 
+    }
+    .shape-1, .shape-2, .shape-3 {
+        width: 80px;
+        height: 80px;
+    }
+}

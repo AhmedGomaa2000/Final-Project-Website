@@ -1,0 +1,12 @@
+<div class="card" style="width: 100%;">
+    <img [src]="popTourCard.imageSrc" class="card-img-top" />
+    <div class="card-body">
+        <i class="fa-solid fa-location-dot" style="color: #fa7135;"></i>
+        <span class="personal-sec7-card-body my-0 ms-2">{{ popTourCard.title }}</span>
+        <h5 class="personal-sec7-card-header my-2">{{ popTourCard.description }}</h5>
+        <div class="d-flex">
+            <p class="me-auto align-middle personal-sec7-card-price">${{ popTourCard.price }}<span>/person</span></p>
+            <a class="btn personal-sec7-card-button" href="../../assets/checkout.html">Book Trip</a>
+        </div>
+    </div>
+</div>

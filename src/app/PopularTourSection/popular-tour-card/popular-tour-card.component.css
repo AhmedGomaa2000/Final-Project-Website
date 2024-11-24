@@ -1,0 +1,22 @@
+.personal-sec7-card-body {
+    font-size: 14px;
+}
+.personal-sec7-card-header {
+    font-size: 22px;
+    color: var(--FooterHeaders);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.personal-sec7-card-header:hover {
+    color: var(--TextOrange);
+    transition: 0.5s;
+}
+.personal-sec7-card-button {
+    white-space: nowrap;
+    background-color: var(--TextOrange);
+    color: antiquewhite;
+}
+.personal-sec7-card-button:hover {
+    opacity: .9;
+    color: antiquewhite;
+}

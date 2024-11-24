@@ -1,0 +1,69 @@
+:root {
+    --BodyBgColor: rgb(244, 247, 252);
+    --NavBarButton: rgb(65, 158, 163);
+    --NavBarButtonHover: rgba(65, 158, 163, 0.8);
+    --TextOrange: rgb(250,113,53); /* any orange is this color use for all orange colors */
+    --FooterHeaders: rgb(1, 46, 65); /* any navy blue like headers and some buttons */
+    --NavyBlueHover: rgba(1, 46, 65, 0.8);
+}
+* {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--BodyBgColor);
+    /* background-image: linear-gradient(to bottom,  #b5d6ec, var(--BodyBgColor)); */
+}
+/* ################################### */
+/* Global Classes */
+.personal-w-20 {
+    width: 20%;
+}
+.personal-w-60 {
+    width: 60%;
+}
+.personal-py-5rem { /* padding top&bottom 5 rem */
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.personal-px-5rem { /* padding left&right 5 rem */
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.personal-mx-5rem { /* margin left&right 5 rem */
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.personal-ms-5rem {
+    margin-left: 5rem;
+}
+.personal-me-5rem {
+    margin-right: 5rem;
+}
+.personal-website-logo { /* website logo */
+    width: 90px;
+}
+.active { /* Current Class */
+    color: var(--TextOrange) !important;
+}
+.presonal-hyperlink-noStyle { /* removes text decoration */
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+}
+.presonal-hyperlink-noStyle:hover { /* adds orange color on hover */
+    color: var(--TextOrange);
+}
+.personal-ornage-headers { /* orange text for headers */
+    font-size: 1rem;
+    color: var(--TextOrange);
+}
+.personal-navy-subHeader { /* navy blue text for sub headers */
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: var(--FooterHeaders);
+}
+.personal-grey-descrip { /* grey text for body */
+    font: 1rem;
+    color: #333;
+}

@@ -1,0 +1,8 @@
+<div class="d-flex p-3 personal-sec9-card">
+    <img class="flex-md-shrink-0" [src]="trendDestCard.imageSrc" />
+    <div class="ms-auto align-self-center">
+        <p>{{ trendDestCard.title }}</p>
+        <p class="">${{ trendDestCard.price }}<span>/night</span></p>
+        <button [routerLink]="['checkout']" class="btn personal-sec9-btn">Book Now</button>
+    </div>
+</div>

@@ -1,0 +1,112 @@
+/* Banner */
+.personal-banner {
+    background-image: url('/assets/images/banner-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 130px 0;
+}
+.personal-banner h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+}
+.personal-banner-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.personal-banner-links ul li a:hover {
+    color: var(--TextOrange);
+}
+/* ################################################## */
+/* ################################################## */
+/* ################################################## */
+.personal-ornage-headers {
+    font-size: 1rem;
+}
+.personal-abt-button {
+    color: white;
+    background-color: var(--NavBarButton);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.personal-abt-button:hover {
+    background-color: var(--NavBarButtonHover);
+}
+.flex-grow-1 {
+    flex-grow: 1 !important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.about{
+    margin-left: 45px;
+    margin-top: 5px;
+}
+.span{
+    color:var(--TextOrange);
+}
+h2{
+    font-size: 50px;
+    
+}
+user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+user agent stylesheet
+li {
+    color: #000;
+}
+.list2 {
+    --direction: column;
+    display: flex;
+    flex-direction: var(--direction);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+user agent stylesheet 
+ul {
+    list-style-type: disc;
+}
+/* ############################### */
+/* <!-- CTA  --> */
+.cta-budget {
+    background-image: url('/assets/images/cta-budget-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100vh;
+    
+}
+.cta-budget__content{
+    margin-top: 25rem;
+}
+/* #################### */
+/* <!-- /Blog --> */
+.textlink{
+    color:black;
+}
+.textlink:hover{
+color: var(--TextOrange);
+}
+/* ######################### */
+/* <!-- Top Destination  --> */
+.bg-dark{
+    opacity: .4;
+    border-radius: 20px;
+}
+.object-fit-cover{
+    border-radius: 20px;
+}
+.imagg{
+    margin-top: 3rem;
+}
+.rounded:hover{
+    scale: 1.05;
+}

@@ -1,0 +1,62 @@
+/* Banner */
+.personal-banner {
+    background-image: url('/assets/images/banner-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 130px 0;
+}
+.personal-banner h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+}
+.personal-banner-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.personal-banner-links ul li a:hover {
+    color: var(--TextOrange);
+}
+/* ##################################### */
+/* FAQ */
+.personal-TnC-title {
+    color: var(--NavyBlueHover);
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.personal-faq-header {
+    color: var(--FooterHeaders);
+    font-size: 1.5rem;
+}
+.personal-faq-body {
+    color: #333;
+}
+.personal-part-1 ul li {
+    list-style: none;
+    position: relative;
+    padding-left: 10px;
+    padding-bottom: 3px;
+}
+.personal-part-1 ul li:before {
+    content: '';
+    background-image: url('/assets/images/icon-plane.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -20px; 
+    top: 50%; 
+    transform: translateY(-50%); 
+}
+@media (min-width: 768px) {
+    .personal-faq-subHeader {
+        max-width: 75%;
+    }    
+}
+@media (min-width: 992px) {
+    .personal-faq-subHeader {
+        max-width: 50%;
+    }
+}

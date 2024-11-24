@@ -1,0 +1,22 @@
+.personal-sec4-card {
+    border: 1px solid #c5c5c5;
+    border-radius: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.personal-sec4-card:hover {
+    scale: 1.1;
+}
+.personal-card-header {
+    color: var(--FooterHeaders);
+    font-size: 1.2rem;
+    line-height: 1;
+}
+.personal-card-header:hover {
+    color: var(--TextOrange);
+}
+.personal-card-body {
+    color: #333;
+    font-size: 1rem;
+}

@@ -1,0 +1,36 @@
+.personal-sec9-card {
+    border: 1px solid none;
+    border-radius: 15px;
+    background-color: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.personal-sec9-card:hover {
+    scale: 1.1;
+}
+.personal-sec9-card img {
+    border-radius: 15px;
+}
+.personal-sec9-card div p {
+    font-weight: 600;
+    color: var(--FooterHeaders);
+}
+.personal-sec9-card div p:nth-child(1) {
+    font-size: 1.6rem;
+}
+.personal-sec9-card div p:nth-child(2) {
+    font-size: 1.2rem;
+}
+.personal-sec9-card div span {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #333;
+}
+.personal-sec9-card .personal-sec9-btn {
+    background-color: var(--NavBarButton);
+    color: #fff;
+    white-space: nowrap;
+}
+.personal-sec9-card .personal-sec9-btn:hover {
+    background-color: var(--NavBarButtonHover);
+}

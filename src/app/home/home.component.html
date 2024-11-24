@@ -1,0 +1,426 @@
+<!-- ############################################################ -->
+    <!-- Section 1: Intro -->
+    <section class="my-5 py-5 personal-intro-section personal-px-5rem mb-5">
+        <h1 class="personal-intro-header">Discover the world, one adventure at a time</h1>
+        <p class="personal-intro-body w-50 mx-auto">Crafted journeys to the world’s most iconic cities. Enjoy personalized travel experiences, all while staying within your budget.</p>
+        <button class="personal-intro-button" [routerLink]="['contact']">Contact Us</button>
+    </section> 
+    <!-- ############################################################ -->
+    <!-- ############################################################ -->
+    <!-- Section 2: Booking Area   -->
+    <section class="personal-section2-booking personal-mx-5rem my-5">
+        <div class="container personal-form-conatiner">
+            <form class="row align-items-center gx-3 m-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <label for="country">Destination</label>
+                    <select class="form-select" name="country" id="country">
+                        <option value="AF">Afghanistan</option>
+                        <option value="AL">Albania</option>
+                        <option value="DZ">Algeria</option>
+                        <option value="AS">American Samoa</option>
+                        <option value="AD">Andorra</option>
+                        <option value="AO">Angola</option>
+                        <option value="AI">Anguilla</option>
+                        <option value="AQ">Antarctica</option>
+                        <option value="AG">Antigua and Barbuda</option>
+                        <option value="AR">Argentina</option>
+                        <option value="AM">Armenia</option>
+                        <option value="AW">Aruba</option>
+                        <option value="AU">Australia</option>
+                        <option value="AT">Austria</option>
+                        <option value="AZ">Azerbaijan</option>
+                        <option value="BS">Bahamas</option>
+                        <option value="BH">Bahrain</option>
+                        <option value="BD">Bangladesh</option>
+                        <option value="BB">Barbados</option>
+                        <option value="BY">Belarus</option>
+                        <option value="BE">Belgium</option>
+                        <option value="BZ">Belize</option>
+                        <option value="BJ">Benin</option>
+                        <option value="BM">Bermuda</option>
+                        <option value="BT">Bhutan</option>
+                        <option value="BO">Bolivia</option>
+                        <option value="BA">Bosnia and Herzegovina</option>
+                        <option value="BW">Botswana</option>
+                        <option value="BR">Brazil</option>
+                        <option value="BN">Brunei Darussalam</option>
+                        <option value="BG">Bulgaria</option>
+                        <option value="BF">Burkina Faso</option>
+                        <option value="BI">Burundi</option>
+                        <option value="KH">Cambodia</option>
+                        <option value="CM">Cameroon</option>
+                        <option value="CA">Canada</option>
+                        <option value="CV">Cape Verde</option>
+                        <option value="KY">Cayman Islands</option>
+                        <option value="CF">Central African Republic</option>
+                        <option value="TD">Chad</option>
+                        <option value="CL">Chile</option>
+                        <option value="CN">China</option>
+                        <option value="CO">Colombia</option>
+                        <option value="KM">Comoros</option>
+                        <option value="CG">Congo</option>
+                        <option value="CD">Congo, Democratic Republic of the</option>
+                        <option value="CR">Costa Rica</option>
+                        <option value="CI">Côte d'Ivoire</option>
+                        <option value="HR">Croatia</option>
+                        <option value="CU">Cuba</option>
+                        <option value="CY">Cyprus</option>
+                        <option value="CZ">Czech Republic</option>
+                        <option value="DK">Denmark</option>
+                        <option value="DJ">Djibouti</option>
+                        <option value="DM">Dominica</option>
+                        <option value="DO">Dominican Republic</option>
+                        <option value="EC">Ecuador</option>
+                        <option checked value="EG">Egypt</option>
+                        <option value="SV">El Salvador</option>
+                        <option value="GQ">Equatorial Guinea</option>
+                        <option value="ER">Eritrea</option>
+                        <option value="EE">Estonia</option>
+                        <option value="ET">Ethiopia</option>
+                        <option value="FJ">Fiji</option>
+                        <option value="FI">Finland</option>
+                        <option value="FR">France</option>
+                        <option value="GA">Gabon</option>
+                        <option value="GM">Gambia</option>
+                        <option value="GE">Georgia</option>
+                        <option value="DE">Germany</option>
+                        <option value="GH">Ghana</option>
+                        <option value="GR">Greece</option>
+                        <option value="GD">Grenada</option>
+                        <option value="GU">Guam</option>
+                        <option value="GT">Guatemala</option>
+                        <option value="GN">Guinea</option>
+                        <option value="GW">Guinea-Bissau</option>
+                        <option value="GY">Guyana</option>
+                        <option value="HT">Haiti</option>
+                        <option value="HN">Honduras</option>
+                        <option value="HK">Hong Kong</option>
+                        <option value="HU">Hungary</option>
+                        <option value="IS">Iceland</option>
+                        <option value="IN">India</option>
+                        <option value="ID">Indonesia</option>
+                        <option value="IR">Iran</option>
+                        <option value="IQ">Iraq</option>
+                        <option value="IE">Ireland</option>
+                        <option value="IL">Israel</option>
+                        <option value="IT">Italy</option>
+                        <option value="JM">Jamaica</option>
+                        <option value="JP">Japan</option>
+                        <option value="JO">Jordan</option>
+                        <option value="KZ">Kazakhstan</option>
+                        <option value="KE">Kenya</option>
+                        <option value="KI">Kiribati</option>
+                        <option value="KP">Korea, Democratic People's Republic of</option>
+                        <option value="KR">Korea, Republic of</option>
+                        <option value="KW">Kuwait</option>
+                        <option value="KG">Kyrgyzstan</option>
+                        <option value="LA">Lao People's Democratic Republic</option>
+                        <option value="LV">Latvia</option>
+                        <option value="LB">Lebanon</option>
+                        <option value="LS">Lesotho</option>
+                        <option value="LR">Liberia</option>
+                        <option value="LY">Libya</option>
+                        <option value="LI">Liechtenstein</option>
+                        <option value="LT">Lithuania</option>
+                        <option value="LU">Luxembourg</option>
+                        <option value="MO">Macao</option>
+                        <option value="MG">Madagascar</option>
+                        <option value="MW">Malawi</option>
+                        <option value="MY">Malaysia</option>
+                        <option value="MV">Maldives</option>
+                        <option value="ML">Mali</option>
+                        <option value="MT">Malta</option>
+                        <option value="MH">Marshall Islands</option>
+                        <option value="MR">Mauritania</option>
+                        <option value="MU">Mauritius</option>
+                        <option value="MX">Mexico</option>
+                        <option value="FM">Micronesia</option>
+                        <option value="MD">Moldova</option>
+                        <option value="MC">Monaco</option>
+                        <option value="MN">Mongolia</option>
+                        <option value="ME">Montenegro</option>
+                        <option value="MA">Morocco</option>
+                        <option value="MZ">Mozambique</option>
+                        <option value="MM">Myanmar</option>
+                        <option value="NA">Namibia</option>
+                        <option value="NR">Nauru</option>
+                        <option value="NP">Nepal</option>
+                        <option value="NL">Netherlands</option>
+                        <option value="NZ">New Zealand</option>
+                        <option value="NI">Nicaragua</option>
+                        <option value="NE">Niger</option>
+                        <option value="NG">Nigeria</option>
+                        <option value="NO">Norway</option>
+                        <option value="OM">Oman</option>
+                        <option value="PK">Pakistan</option>
+                        <option value="PW">Palau</option>
+                        <option value="PS">Palestine</option>
+                        <option value="PA">Panama</option>
+                        <option value="PG">Papua New Guinea</option>
+                        <option value="PY">Paraguay</option>
+                        <option value="PE">Peru</option>
+                        <option value="PH">Philippines</option>
+                        <option value="PL">Poland</option>
+                        <option value="PT">Portugal</option>
+                        <option value="QA">Qatar</option>
+                        <option value="RO">Romania</option>
+                        <option value="RU">Russian Federation</option>
+                        <option value="RW">Rwanda</option>
+                        <option value="KN">Saint Kitts and Nevis</option>
+                        <option value="LC">Saint Lucia</option>
+                        <option value="VC">Saint Vincent and the Grenadines</option>
+                        <option value="WS">Samoa</option>
+                        <option value="SM">San Marino</option>
+                        <option value="ST">Sao Tome and Principe</option>
+                        <option value="SA">Saudi Arabia</option>
+                        <option value="SN">Senegal</option>
+                        <option value="RS">Serbia</option>
+                        <option value="SC">Seychelles</option>
+                    </select>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <label for="travellers">Travellers:</label>
+                    <input type="number" class="form-control" id="travellers" name="travellers" min="1" max="10" placeholder="1-10">
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <label for="duration">Duration</label>
+                    <input type="number" class="form-control" id="duration" name="duration" min="1" placeholder="Enter days" />
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <button type="submit" class="btn btn-primary mt-4 form-control personal-booking-button">Book Now</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- ############################################################ -->
+    <!-- ############################################################ -->
+    <!-- Section 3: Get To Know Us  -->
+    <section class="container personal-px-5rem my-5 py-5 px-0">
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                    <h2 class="personal-ornage-headers">GET TO KNOW US</h2>
+                    <h3 class="personal-navy-subHeader mb-4">Experience the World with Triptopia</h3>
+                    <p class="personal-grey-descrip">TripTopia was founded by travel enthusiasts with a shared passion for exploration and a mission to create meaningful, unforgettable experiences. We believe that travel is not just about seeing new places, but about immersing yourself in different cultures and making lasting memories.</p>
+                    <p class="personal-sec3-textbody my-3">"The world is a book and those who do not travel read only one page."</p>
+                    <ul class="personal-sec3-list mb-3 py-3">
+                        <li>We curate personalized itineraries to suit every traveler.</li>
+                        <li>We believe travel fosters understanding between cultures.</li>
+                    </ul>
+                    <button class="btn personal-sec3-button py-3 px-5" [routerLink]="['destination']">Discover More</button>
+            </div>
+            <div class="col-lg-6 col-md-12 pt-5">
+                <img src="assets/images/about-img-1.png" />
+            </div>
+        </div>
+    </section>
+    <!-- ############################################################ -->
+    <!-- ############################################################ -->
+    <!-- Section 4: Top Destinations -->
+    <section class="personal-px-5rem py-5 personal-sec-4">
+        <div class="text-center personal-w-60 mx-auto pt-5">
+            <h2 class="personal-ornage-headers">TOP DESTINATIONS</h2>
+            <h3 class="personal-navy-subHeader my-4">Explore the best places around the world</h3>
+            <p class="personal-grey-descrip">Our travel platform offers a range of exclusive destinations and experiences, making your next trip simple, enjoyable, and truly unforgettable with TripTopia.</p>
+        </div>
+        <div class="container my-5 py-5">
+            <div class="row g-4">
+                @for (card of topDestCard; track $index) {
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <app-top-dest-card [topDestCard]="card"></app-top-dest-card>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+    <!-- ############################################################ -->
+    <!-- ############################################################ -->
+    <!-- Section 5: Our Team -->
+    <!-- Not now -->
+    <!-- ############################################################ -->
+    <!-- ############################################################ -->
+    <!-- Section 6: Get To Know Us pt 2 -->
+    <section class="personal-px-5rem py-5">
+        <div class="text-center personal-w-60 mx-auto mb-5">
+            <h2 class="personal-ornage-headers">GET TO KNOW US</h2>
+            <h3 class="personal-navy-subHeader my-2">Experience the World With Triptopia</h3>
+            <p class="personal-grey-descrip">Our travel service offers a range of options and benefits that make planning trips easy and enjoyable. With our expert itinerary design.</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="personal col d-flex flex-column justify-content-around">
+                    <div class="personal-sec6-card">
+                        <img src="assets/images/icon-about-1.png" />
+                        <h3 class="personal-card-header fs-4 py-2">Luxury Trip</h3>
+                        <p class="personal-card-body">Our platform pairs you with fellow travelers based on shared interests.</p>
+                    </div>
+                    <div class="personal-sec6-card">
+                        <img src="assets/images/icon-about-2.png" />
+                        <h3 class="personal-card-header fs-4 py-2">Affordable Budget</h3>
+                        <p class="personal-card-body">We provide exceptional trips that fit your budget without compromising quality.</p>
+                    </div>
+                </div>
+                <div class="col d-flex flex-column">
+                    <div class="personal-sec6-card">
+                        <img src="assets/images/about-img-3.png" />
+                    </div>
+                </div>
+                <div class="col d-flex flex-column justify-content-around">
+                    <div class="personal-sec6-card">
+                        <img src="assets/images/icon-about-3.png" />
+                        <h3 class="personal-card-header fs-4 py-2">Personalized Approach</h3>
+                        <p class="personal-card-body">Easily explore and discover your ideal travel companion with our intuitive interface.</p>
+                    </div>
+                    <div class="personal-sec6-card">
+                        <img src="assets/images/icon-about-4.png" />
+                        <h3 class="personal-card-header fs-4 py-2">Experienced Guide</h3>
+                        <p class="personal-card-body">Our team is here around the clock to assist you.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ############################################################ -->
+    <!-- ############################################################ -->
+    <!-- Section 7: Popular Tour -->
+    <section class="personal-px-5rem py-5 my-5">
+        <div class="text-center personal-w-60 mx-auto mb-5">
+            <h2 class="personal-ornage-headers">POPULAR TOUR</h2>
+            <h3 class="personal-navy-subHeader my-2">See Destinations You'll Love To Visit</h3>
+        </div>
+        <div class="container my-5">
+            <div class="row g-4"> 
+                @for (card of popTourCard; track $index) {
+                    <div class="col-lg-4 col-md-6 col-sm-12"> 
+                        <app-popular-tour-card [popTourCard]="card"></app-popular-tour-card>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+    <!-- ############################################################ -->
+    <!-- ############################################################ -->
+    <!-- Section 8: Top Destination Pt.2 -->
+    <section class="personal-px-5rem py-5">
+        <div class="text-center personal-w-60 mx-auto">
+            <h2 class="personal-ornage-headers">TOP DESTINATIONS</h2>
+            <h3 class="personal-navy-subHeader my-4">Unveiling World's Top Travel Hotspots</h3>
+        </div>
+        <div class="container mt-5 pt-2">
+            <div class="row g-4">
+                <div class="personal-sec8-card col-md-8" id="sec8-card-1">
+                    <img src="assets/images/top-spot-img-1.png" />
+                    <div class="personal-sec8-text-container">
+                        <h4 class="personal-sec8-header">Pryde Mountains</h4>
+                        <p class="personal-sec-text">Prydelands, 100 Trips</p>
+                    </div>
+                </div>
+                <div class="personal-sec8-card col-md-4" id="sec8-card-2">
+                    <img src="assets/images/top-spot-img-2.png" />
+                    <div class="personal-sec8-text-container">
+                        <h4 class="personal-sec8-header">Burj Abu Dhabi</h4>
+                        <p class="personal-sec-text">Dubai, 150 Trips</p>
+                    </div>
+                </div>
+                <div class="personal-sec8-card col-md-4" id="sec8-card-3">
+                    <img src="assets/images/top-spot-img-3.png" />
+                    <div class="personal-sec8-text-container">
+                        <h4 class="personal-sec8-header">Iceland</h4>
+                        <p class="personal-sec-text">Europe</p>
+                    </div>
+                </div>
+                <div class="personal-sec8-card col-md-4" id="sec8-card-4">
+                    <img src="assets/images/top-spot-img-4.png" />
+                    <div class="personal-sec8-text-container">
+                        <h4 class="personal-sec8-header">Himalayas</h4>
+                        <p class="personal-sec-text">Hungary</p>
+                    </div>
+                </div>
+                <div class="personal-sec8-card col-md-4" id="sec8-card-5">
+                    <img src="assets/images/top-spot-img-5.png" />
+                    <div class="personal-sec8-text-container">
+                        <h4 class="personal-sec8-header">Mount Logan</h4>
+                        <p class="personal-sec-text">United Kingdom</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ############################################################ -->
+    <!-- ############################################################ -->
+    <!-- Section 9: Trending Destinations -->
+    <section class="personal-px-5rem py-5 personal-sec-9">
+        <div class="text-center personal-w-60 mx-auto pt-5">
+            <h2 class="personal-ornage-headers">TOP DESTINATIONS</h2>
+            <h3 class="personal-navy-subHeader my-4">Explore the best places around the world</h3>
+        </div>
+        <div class="container">
+            <div class="row g-4">
+                @for (card of trendDestCard; track $index) {
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <app-trend-dest-card [trendDestCard]="card" ></app-trend-dest-card>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+    <!-- ############################################################ -->
+    <!-- ############################################################ -->
+    <!-- Section 10: Testimonial -->
+    <!-- Not Now -->
+    <!-- ############################################################ -->
+    <!-- ############################################################ -->
+    <!-- Section 11: FAQ -->
+    <!-- Not Now -->
+    <!-- ############################################################ -->
+    <!-- ############################################################ -->
+    <!-- Section 12: Blog -->
+    <section class="personal-px-5rem py-5 my-5">
+        <div class="text-center personal-w-60 mx-auto">
+            <h2 class="personal-ornage-headers">BLOG</h2>
+            <h3 class="personal-navy-subHeader my-4">Tips and Tricks for Planning Your Dream Trip</h3>
+        </div>
+        <div class="container py-5">
+            <div class="row g-4">
+                <div class="col-md-4 col-sm-12"> <!-- Card 1 -->
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="assets/images/blog-img-1.png" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text personal-sec12-card-header p-0 m-0">Solo Travel</p>
+                            <h5 class="card-title personal-sec12-card-body py-1 m-0">Lorem ipsum dolor sit amet consectetur.</h5>
+                            <div class="d-flex pt-3">
+                                <img class="personal-sec12-card-image" src="assets/images/team-1.png" />
+                                <h6 class="personal-sec12-card-name align-self-center mx-3 pt-2">MGK Kelly</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12"> <!-- Card 2 -->
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="assets/images/blog-img-2.png" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text personal-sec12-card-header p-0 m-0">Solo Travel</p>
+                            <h5 class="card-title personal-sec12-card-body py-1 m-0">Lorem ipsum dolor sit amet consectetur.</h5>
+                            <div class="d-flex pt-3">
+                                <img class="personal-sec12-card-image" src="assets/images/team-2.png" />
+                                <h6 class="personal-sec12-card-name align-self-center mx-3 pt-2">Kamala Harris</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12"> <!-- Card 3 -->
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="assets/images/blog-img-3.png" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text personal-sec12-card-header p-0 m-0">Solo Travel</p>
+                            <h5 class="card-title personal-sec12-card-body py-1 m-0">Lorem ipsum dolor sit amet consectetur.</h5>
+                            <div class="d-flex pt-3">
+                                <img class="personal-sec12-card-image" src="assets/images/team-3.png" />
+                                <h6 class="personal-sec12-card-name align-self-center mx-3 pt-2">Robert Downey</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ############################################################ -->

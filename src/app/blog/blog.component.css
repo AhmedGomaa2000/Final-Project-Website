@@ -1,0 +1,60 @@
+body {
+    background-color: hotpink;
+}
+/* blog Page */
+/* Banner */
+.personal-banner {
+    background-image: url('/assets/images/banner-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 130px 0;
+}
+.personal-banner h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+}
+.personal-banner-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.personal-banner-links ul li a:hover {
+    color: var(--TextOrange);
+}
+/* ##################################### */
+/* ##################################### */
+/* ##################################### */
+.personal-blog-list a {
+    color: black;
+}
+
+.personal-blog-list a:hover{
+    color: var(--TextOrange);
+}
+
+.personal-blog-tags a{
+    background-color: #F7F7F7 ;
+    color: black;
+    font-size: 14px;
+}
+
+.personal-blog-tags a:hover{
+    background-color: var(--TextOrange);
+    color:white;
+}
+
+.personal-blog-btn1{
+    background-color: var(--TextOrange);
+    border: none;
+    color: white;
+}
+
+.personal-blog-btn1:hover{
+    opacity: 0.8;
+    color: white;
+}
+
+.side-baaar{
+    z-index: 50;
+}
